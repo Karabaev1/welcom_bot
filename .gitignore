@@ -1,0 +1,49 @@
+# Python tomonidan yaratilgan kesh va vaqtinchalik fayllar
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.pyc
+
+# Virtal muhit (venv)
+venv/
+.env
+*.env
+
+# IDE'lar va muharrirlar uchun sozlamalar
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Linux OS vaqtinchalik fayllari
+*.~lock.*
+*~
+.DS_Store
+
+# Debug va test fayllari
+*.bak
+*.tmp
+*.log
+*.out
+*.test
+*.coverage
+
+# Git tomonidan yaratilgan vaqtinchalik fayllar
+*.orig
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Python tarqatish fayllari
+build/
+dist/
+*.egg-info/
+
+# Botda yaratilgan vaqtinchalik fayllar
+logs/
+media/
+uploads/
